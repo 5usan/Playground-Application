@@ -7,7 +7,7 @@ import ButtonComponent from '../components/ButtonComponent';
 import Flatlist from '../components/Flatlist';
 import AvatarComponent from '../components/AvatarComponent';
 import AlertComponent from '../components/AlertComponent';
-import Modal from '../components/Modal';
+import ModalComponent from '../components/ModalComponent';
 import Icon from '../components/Icon';
 import ImageComponent from '../components/ImageComponent';
 import CheckboxContainer from '../components/CheckboxContainer';
@@ -28,7 +28,7 @@ const Navigation = () => {
         <Stack.Screen name="FLatlist" component={Flatlist} />
         <Stack.Screen name="Avatar" component={AvatarComponent} />
         <Stack.Screen name="Alert" component={AlertComponent} />
-        <Stack.Screen name="Modal" component={Modal} />
+        <Stack.Screen name="Modal" component={ModalComponent} />
         <Stack.Screen name="Icon" component={Icon} />
         <Stack.Screen name="Image" component={ImageComponent} />
         <Stack.Screen name="Checkbox" component={CheckboxContainer} />
